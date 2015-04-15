@@ -1,1 +1,34 @@
 
+* {
+  box-sizing: border-box;
+}
+.frame {
+  height: 900px;
+  width: 900px;
+  margin: 0 auto;
+}
+
+.banner {
+  height: 40px;
+  width: 100%;
+  text-color: 'red';
+
+}
+
+.row {
+  width: 100%;
+  height: 33.33%;
+  border: 1px solid black;
+}
+
+.box {
+  float: left;
+  text-align: center;
+  font-size: 340px;
+  width: 33.33%;
+  height: 100%;
+  border: 1px solid black;
+
+  background: #999999;
+  zindex: 999;
+}
