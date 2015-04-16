@@ -57,18 +57,6 @@ $(document).ready( function(){
       }
     });
 
-  };
-  function intersection(arr1, arr2) {
-    var wintersection = [];
-    for(var i = 0; i < arr1.length; i++){
-        for(var k = 0; k < arr2.length; k++){
-            if(arr1[i] == arr2[k]){
-                wintersection.push( arr1[i]);
-                break;
-            }
-        }
-    }
-    return wintersection
 
 	};
   function clear_board(){
